@@ -1,0 +1,9 @@
+@media screen {
+    body{
+        background-image: url(/img/fundo.avif);
+        background-size: cover;
+    }  
+    .card .card-img-top{
+        width: 100%;
+    }
+}
