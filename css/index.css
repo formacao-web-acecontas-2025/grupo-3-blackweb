@@ -1,9 +1,27 @@
 @media screen {
     body{
         background-image: url(/img/fundo.avif);
-        background-size: cover;
+        margin: 0%;
+        padding: 0%;
+
     }  
     .card .card-img-top{
         width: 100%;
     }
+    .Descrição{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 6% ;
+    }
+    .Texto-Descrição p{
+        text-align: justify;
+        margin-right: 10%;
+        font-size: 24px;
+    }
+    .imagem-descrição{
+        width: 100%;
+    }
+    
 }
+background: linear-gradient(#627ba3,#363333);

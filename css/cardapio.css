@@ -1,7 +1,10 @@
-@media screen {
+
     body{
-        background-image: url(/img/fundo.avif);
+       background-image: url(/img/fundo.avif);
         background-size: cover;
     };
-  
-}
+   .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
