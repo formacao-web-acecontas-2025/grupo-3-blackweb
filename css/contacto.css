@@ -1,0 +1,74 @@
+.page-header {
+    background-color: #007bff;
+    color: white;
+    padding: 80px 20px 40px;
+    text-align: center;
+  }
+
+  .page-header h2 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* <-- sombra */
+  }
+
+  .social-icons i {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons i:hover {
+    color: #0056b3;
+  }
+
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+
+  .form-section {
+    padding-top: 40px;
+  }
+
+#contacto div{
+    color: white;
+    margin: 15px;
+    align-items: stretch;
+    border-radius: 5px;
+}
+.contacto{
+    background-color: #0057b3d3;
+    display: flex;
+    justify-content: start;
+    font-size: 15px;   
+    text-align:justify;
+}
+.contacto img{
+    border-radius: 99%;
+    border: 20px solid #0057b348;
+}
+.colunas{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+.cont{
+background-color:  #0056b3;
+display: flex;
+justify-content: space-evenly;
+align-content: stretch;
+margin-bottom: 5%;
+}
+
+.link-texto{
+    text-decoration: none;
+    color: white;
+}
