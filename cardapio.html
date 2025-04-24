@@ -205,12 +205,18 @@
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Restaurante Gourmet - Todos os direitos reservados</p>
+    <p>&copy; 2025 Restaurante Gourmet ThaiNgola- Todos os direitos reservados</p>
   </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
- 
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("btn-reservar-modal").addEventListener("click", function () {
+      alert("Reserva efectuada com sucesso! Aguarde a nossa confirmação.");
+    });
+  });
+ </script>
   
 </body>
 </html>
