@@ -1,0 +1,66 @@
+.cardapio-header {
+    background: #007bff; /* Azul */
+    background-image: url('img/cardapio-banner.jpg'); /* Imagem de fundo */
+    background-size: cover; /* Ajustar a imagem */
+    background-position: center; /* Centralizar a imagem */
+    color: white;
+    text-align: center;
+    padding: 100px 20px 60px;
+  }
+
+  .cardapio-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  table img {
+    border-radius: 10px;
+  }
+
+  h2.setor-title {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Efeito de levitação nos pratos */    
+  .table img:hover {
+    transform: translateY(-10px); /* Levanta a imagem */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar o efeito de levitação */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza a transição */
+  }
+  .card .card-img-top{
+    width: 100%;
+}
+.Descrição{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 6% ;
+}
+.Texto-Descrição p{
+    text-align: justify;
+    margin-right: 10%;
+    font-size: 24px;
+}
+.imagem-descrição{
+    width: 100%;
+    border-radius: 10%;
+}
+/* Ajuste para as imagens dos cards */
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
